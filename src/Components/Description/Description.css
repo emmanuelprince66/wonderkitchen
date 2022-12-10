@@ -1,0 +1,46 @@
+.desImg{
+    width: 500px;
+    height: 450px;
+}
+.desImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.namePrice{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.namePrice h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+.des p{
+    margin-left: 20px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.button button {
+    all: unset;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+@media screen and (max-width:550px) {
+    .namePrice{
+        margin-top: 40px;
+    }
+}

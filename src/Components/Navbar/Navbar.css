@@ -1,0 +1,36 @@
+.Navbar{
+    background-color: rgba(4, 12, 24, 1);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.navbar__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+}
+.navbar__content i{
+    font-size: 26px;
+    line-height: 20px;
+}
+.Navbar sup{
+    background-color: azure;
+    color: black;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.Navbar i{
+    cursor: pointer;
+}
+.Navbar small{
+    font-size: 14px;
+    display: block;
+    text-align: center;
+}
